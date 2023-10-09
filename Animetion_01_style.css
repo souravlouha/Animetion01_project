@@ -45,6 +45,8 @@ body {
   background-color: whitesmoke;
 }
 
+
+
 canvas {
   position: relative;
   z-index: 9;
@@ -181,10 +183,10 @@ canvas {
   font-family: gilroy;
 }
 
-#page2>#text1> {
+#page2>#text1 {
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 10%;
 }
 
 #page2>#text1>h3 {
@@ -197,4 +199,48 @@ canvas {
   font-size: 50px;
   line-height: 1.5;
   left: 20%;
+}
+
+#page2>#text2 {
+  position: absolute;
+  TOP: 50%;
+  font-size: 20px;
+  line-height: 1.5;
+  left: 62%;
+}
+
+#page2>#text2>p {
+  color: #7c7c7c;
+}
+
+#page3>#text3 {
+  font-family: gilroy;
+  position: absolute;
+  font-size: 25px;
+  line-height: 1.5;
+  top: 40%;
+  left: 68%;
+  text-align: end;
+}
+
+#page3>#text3>h1 {
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+#page3>#text3>h3 {
+  font-weight: 400;
+  color: #7c7c7c;
+}
+
+#page3>#text4 {
+  position: absolute;
+  top: 30%;
+  font-size: 20px;
+  line-height: 1.5;
+  left: 6%;
+}
+
+#page2>#text2>p {
+  color: #7c7c7c;
 }
